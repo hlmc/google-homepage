@@ -3,11 +3,36 @@ img {
   max-height: 100%;
 }
 
-.Middle_Elements {
-  position: fixed;
+.googlelogo {
+  padding-top: 109px;
+  width: 272px;
+  height: 92px;
+  display: block;
+}
+
+.content {
+  padding: 118px;
+  display: block;
   height: 10%;
-  bottom: 0;
-  top: 230px;
-  left: 820px;
   border: 3px solid;
+}
+
+#body {
+  display: block;
+}
+
+.Content_margins {
+  height: 118px;
+  margin-top: 89px;
+}
+
+.search_bar {
+  background: #fff;
+  display: inline-block;
+  width: 520px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
 }
